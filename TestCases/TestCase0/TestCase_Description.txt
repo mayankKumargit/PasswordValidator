@@ -8,5 +8,5 @@ This is due to the fact that our password_valid.py contains 0 lines of code init
 
 Passing Test :
 Code is added in password_valid.py. This code defines a class names "Password()" with no methods yet.
-In the test_password.py file, we import this module and create an aboject of it.
+In the test_password.py file, we import this module and create an object of it.
 On running the test, the message states that the test case is passed with zero errors.
