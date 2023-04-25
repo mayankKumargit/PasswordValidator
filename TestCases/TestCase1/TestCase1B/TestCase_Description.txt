@@ -1,0 +1,13 @@
+Objective : 
+This Test Case Part B tests whether the password is null or not
+
+Failed Test :
+We are passing empty string as password and checking whether the function can identify empty password. 
+The function isNull() in password_valid.py does not contain any code other than pass statement.
+Hence the function returns None and test case failed.
+
+
+
+
+
+
