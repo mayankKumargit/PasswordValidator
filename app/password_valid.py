@@ -1,3 +1,6 @@
 class Password(object):
     def isNull(self,password):
-        pass
+        if(len(password)==0):
+            return None
+        else:
+            return not None

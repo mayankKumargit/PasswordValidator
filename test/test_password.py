@@ -7,7 +7,7 @@ class TestPassword(unittest.TestCase):
         pswd=Password()
     def test_password_not_empty(self):
         pswd=Password()
-        result=pswd.isNull('')
+        result=pswd.isNull('rt5ybhs!')
         self.assertIsNotNone(result)
 if __name__ == "__main__":
     unittest.main()
