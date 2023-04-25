@@ -1,5 +1,5 @@
 Objective : 
-This Test Case tests whether the password_valid.py contains isNull() function or not.
+This Test Case Part A tests whether the password_valid.py contains isNull() function or not.
 
 Failed Test :
 We check the objective by making an object of Password class in the test_password.py and trying to call the function to check if the password entered is empty.

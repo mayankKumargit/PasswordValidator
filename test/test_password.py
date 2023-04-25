@@ -8,5 +8,6 @@ class TestPassword(unittest.TestCase):
     def test_password_not_empty(self):
         pswd=Password()
         result=pswd.isNull('')
+        self.assertIsNotNone(result)
 if __name__ == "__main__":
     unittest.main()
