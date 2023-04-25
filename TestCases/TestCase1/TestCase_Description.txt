@@ -1,0 +1,9 @@
+Objective : 
+This Test Case tests whether the password_valid.py contains isNull() function or not.
+
+Failed Test :
+We check the objective by making an object of Password class in the test_password.py and trying to call the function to check if the password entered is empty.
+On doing so we get a failed test message which shows 2 test cases ran and 1 failed with error stating that the class "Password()" does not contain any function called  isNull().
+This is due to the fact that our password_valid.py does not contain any such function.
+
+
