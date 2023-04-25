@@ -6,6 +6,11 @@ We are passing empty string as password and checking whether the function can id
 The function isNull() in password_valid.py does not contain any code other than pass statement.
 Hence the function returns None and test case failed.
 
+Passed Test :
+We are passing string as password and checking whether the function can identify empty password. 
+The function isNull() in password_valid.py checks whether the length of password is 0 or not
+Hence the function returns None if the password is empty and test case is passed since the given password is not empty.
+
 
 
 
