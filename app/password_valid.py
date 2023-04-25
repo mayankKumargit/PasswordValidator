@@ -1,2 +1,3 @@
 class Password(object):
-    pass
+    def isNull(self,password):
+        pass
