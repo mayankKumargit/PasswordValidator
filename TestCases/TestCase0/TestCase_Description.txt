@@ -1,0 +1,12 @@
+Objective : 
+This Test Case tests whether the password_valid.py contains some code or not.
+
+Failed Test :
+We check the objective by making an object of Password class in the test_password.py.
+On doing so we get a failed test message which shows 1 test case ran and 1 failed with error stating that the class "Password()" is not defined.
+This is due to the fact that our password_valid.py contains 0 lines of code initially.
+
+Passing Test :
+Code is added in password_valid.py. This code defines a class names "Password()" with no methods yet.
+In the test_password.py file, we import this module and create an aboject of it.
+On running the test, the message states that the test case is passed with zero errors.
