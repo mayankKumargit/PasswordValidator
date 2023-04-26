@@ -9,5 +9,9 @@ class TestPassword(unittest.TestCase):
         pswd=Password()
         result=pswd.isNull('rt5ybhs!')
         self.assertIsNotNone(result)
+    def test_password_length_checker(self):
+        pswd=Password()
+        result=pswd.checkLength('afedsc33fd')
+        self.assertEqual('Yes',result)
 if __name__ == "__main__":
     unittest.main()
