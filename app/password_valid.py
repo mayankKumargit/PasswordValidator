@@ -14,3 +14,8 @@ class Password(object):
             if (i.isupper()):
                 return 1
         return 0
+    def checkLowercase(self,password):
+        for i in password:
+            if (i.islower()):
+                return 1
+        return 0
