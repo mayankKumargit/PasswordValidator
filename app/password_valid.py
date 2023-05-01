@@ -6,6 +6,6 @@ class Password(object):
             return not None
     def checkLength(self,password):
         if(len(password)<8 or len(password)>15):
-            return "No"
+            return 0
         else:
-            return "Yes"
+            return 1

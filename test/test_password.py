@@ -12,6 +12,10 @@ class TestPassword(unittest.TestCase):
     def test_password_length_checker(self):
         pswd=Password()
         result=pswd.checkLength('afedsc33fd')
-        self.assertEqual('Yes',result)
+        self.assertEqual(1,result)
+    def test_password_uppercase_checker(self):
+        pswd=Password()
+        result=pswd.checkUppercase('aJsj5Y@dj')
+        self.assertEqual(1,result)
 if __name__ == "__main__":
     unittest.main()
