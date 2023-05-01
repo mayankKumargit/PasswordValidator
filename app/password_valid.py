@@ -9,3 +9,8 @@ class Password(object):
             return 0
         else:
             return 1
+    def checkUppercase(self,password):
+        for i in password:
+            if (i.isupper()):
+                return 1
+        return 0
