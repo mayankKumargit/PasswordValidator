@@ -25,5 +25,9 @@ class TestPassword(unittest.TestCase):
         pswd=Password()
         result=pswd.checkDigit('aJsj5Y@d!j')
         self.assertEqual(1,result)
+    def test_password_special_character_checker(self):
+        pswd=Password()
+        result=pswd.checkSpecialChar('aJsj5Y@d!j')
+        self.assertEqual(1,result)
 if __name__ == "__main__":
     unittest.main()
