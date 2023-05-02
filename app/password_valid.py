@@ -28,3 +28,8 @@ class Password(object):
             if (i in ['!','@','#','$','%','&','*','_']):
                 return 1
         return 0
+    def checkSpace(self,password):
+        for i in password:
+            if (i.isspace()):
+                return 0
+        return 1
