@@ -7,8 +7,8 @@ class TestPassword(unittest.TestCase):
         pswd=Password()
     def test_password_not_empty(self):
         pswd=Password()
-        result=pswd.isNull('aJsj5Y@d!j')
-        self.assertIsNotNone(result)
+        result=pswd.isNotNull('aJsj5Y@d!j')
+        self.assertEqual(1,result)
     def test_password_length_checker(self):
         pswd=Password()
         result=pswd.checkLength('aJsj5Y@d!j')
