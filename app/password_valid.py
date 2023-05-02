@@ -23,3 +23,8 @@ class Password(object):
             if (i.isdigit()):
                 return 1
         return 0
+    def checkSpecialChar(self,password):
+        for i in password:
+            if (i in ['!','@','#','$','%','&','*','_']):
+                return 1
+        return 0
