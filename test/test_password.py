@@ -33,5 +33,9 @@ class TestPassword(unittest.TestCase):
         pswd=Password()
         result=pswd.checkSpace('aJsj5Y@d!j')
         self.assertEqual(1,result)
+    def test_password_repeating_checker(self):
+        pswd=Password()
+        result=pswd.checkRepeat('aJsj5Y@d!j')
+        self.assertEqual(1,result)
 if __name__ == "__main__":
     unittest.main()
