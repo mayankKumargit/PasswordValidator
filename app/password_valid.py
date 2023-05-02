@@ -1,3 +1,4 @@
+import re
 class Password(object):
     def isNull(self,password):
         if(len(password)==0):
@@ -43,3 +44,8 @@ class Password(object):
             if count>=3:
                 return 0
         return 1
+    def checkOther(self,password):
+        i=re.match(r"[a-zA-Z0-9|!|@|#|$|%|&|*|_]",password)
+        if(i):
+            return 1
+        return 0
