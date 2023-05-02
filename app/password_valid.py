@@ -33,3 +33,13 @@ class Password(object):
             if (i.isspace()):
                 return 0
         return 1
+    def checkRepeat(self,password):
+        for i in range(0,len(password)-1):
+            count=1
+            j=i+1
+            while j<len(password) and password[j]==password[i]:
+                count+=1
+                j+=1
+            if count>=3:
+                return 0
+        return 1
