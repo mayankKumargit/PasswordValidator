@@ -18,4 +18,8 @@ class Password(object):
         for i in password:
             if (i.islower()):
                 return 1
+    def checkDigit(self,password):
+        for i in password:
+            if (i.isdigit()):
+                return 1
         return 0
