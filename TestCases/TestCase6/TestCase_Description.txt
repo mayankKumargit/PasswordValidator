@@ -5,3 +5,7 @@ Failed Test :
 We check the objective by making an object of Password class in the test_password.py and trying to call the function to check whether the password has at least one special character or not.
 On doing so we get a failed test message which shows 7 test cases ran and 1 failed with error stating that the class "Password()" does not contain any function called checkSpecialChar().
 This is due to the fact that our password_valid.py does not contain any such function.
+
+Passed Test :
+Code is added in password_valid.py. This code defines a class names "Password()" with one method checkSpecialChar(). In the test_password.py file, we import this module and create an object of it and called the function checkSpecialChar()
+On running the test, the message states that 7 test cases ran and 7 test cases passed with zero errors.
